@@ -1,9 +1,7 @@
-# Spotify_Music_Recommendation
-
-# Project Name : HR Data Analytics
+# Project Name : Spotify Music Recommendation
   
 <p align="center">
-    <img src="https://community.nasscom.in/sites/default/files/media/images/HR-Analytics.jpg" alt="Logo" width="400" height="300">
+    <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*GMikfjbGYyPGDTYdJuMwhg.png" alt="Logo" width="400" height="300">
 </p>
 
 
