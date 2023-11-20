@@ -10,7 +10,7 @@ The Music Recommendation project aims to recommend movies to users. This is a co
 
 
 ## Dataset
-- https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+- https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset
 
 ## Methodology
 
