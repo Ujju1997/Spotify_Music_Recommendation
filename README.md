@@ -4,70 +4,52 @@
     <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*GMikfjbGYyPGDTYdJuMwhg.png" alt="Logo" width="400" height="300">
 </p>
 
-
 ## Introduction
 
-The HR Data Analytics project aims to leverage data analysis and insights to optimize human resources management within an organization. By analyzing HR data this project seeks to enhance employee satisfaction improve recruitment strategies identify potential attrition risks and increase overall workforce productivity. The project will utilize various statistical techniques to extract valuable insights from the HR data and enable data-driven decision-making in the HR department.
+The Music Recommendation project aims to recommend movies to users. This is a content-based recommendation system.
 
 
-## Problem aimed to solve
-
-1. Organizations struggle with optimizing employee performance and retention due to a lack of data-driven insights. 
-2. This project aims to create an HR Analysis Dashboard using Power BI, providing  HR professionals with actionable insights to optimize HR strategies, improve performance, and reduce attrition.
-
-
+## Dataset
+- https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ## Methodology
 
 The following methodology was used to accomplish the project objectives:
 
-1. **Data Loading:** The HR data was loaded from the CSV file into the Power BI application. 
+1. **Data Loading:** The movie data was loaded from the CSV file into the Pandas dataframe. 
 
 
-2. **Data Cleaning and Pre-processing:** The data cleaning process encompassed eliminating irrelevant data, addressing missing values, standardizing formats, removing duplicates, adding new columns and measures using DAX
+2. **Data Cleaning and Pre-processing:** The data cleaning process encompassed eliminating irrelevant data, addressing missing values, standardizing formats, removing duplicates, and applied NLP techniques like removing stopwords, punctuations, stemming to make the data useful for creating the vectorization matrix.
 
-3. **Dashboard Creation:** A dashboard was created using Power BI to provide an interactive visualization of the data. The dashboard included various charts and graphs to display the data in an easy-to-understand format. 
+3. **Streamlit App:** A web-based app was built using Streamlit and python 
 
-![Sample_User_interface](https://drive.google.com/uc?export=download&id=1VkiJqkZOu2d5LZy7Pq_lCjm8K6wbaZ2k)
+![Sample_User_interface](https://drive.google.com/uc?export=download&id=16MKcV3ocDpu6zv78LBbAg_OeXyiaZrEk)
 
 
-
-  
  <p>&nbsp;</p>
 
 
 ## Results
 
-###  Key Insights from Dashboard:
-
-- The age group of 26-35 experiences the highest attrition rate.
-
-- Life sciences education & Laboratory Technicians roles exhibit the highest attrition percentages.
- 
-- Employees with 1-2 years of experience show the highest attrition.
-
-- Although the average salary is 6.5k, employees earning less than this are more likely to leave.
-
-- Attrition rates are likely to be inversely proportional to job satisfaction.
+- 5 recommended music similar to the movie you searched for.
 
 
 ## Limitations:
    
 - One limitation of this project is the size of the data, it might vary for a large dataset. This limitation can impact the ability to identify long-term trends and patterns accurately.
--  HR data often requires a deep understanding of the organization's context and culture to interpret the findings accurately. Lack of context may lead to misinterpretations or incorrect conclusions
+-  This is a content-based system so no involvement of users
 
 ## Challenges: 
    
-- The challenges faced were to identify which columns would be most helpful in getting the best insights out of the data and to learn about DAX to create measures and calculated columns.
+- The challenge was to learn about NLP and which techniques to use to make the recommendation
+- Learning about Spotipy library rather than making the API call directly which involved generating User Authentication tokens
 
 
 ## References
 
-- Excel from  https://exceljet.net/
-- DAX from https://learn.microsoft.com/en-us/dax/
-- Microsoft Corporation. (n.d.). Power BI. Retrieved April 22, 2023, from "https://powerbi.microsoft.com/en-us/"
-
-  
+- NLTK from  https://www.nltk.org/
+- pandas from https://pandas.pydata.org/docs/
+- Spotipy from https://spotipy.readthedocs.io/en/2.22.1/
 
 
  
